@@ -1,0 +1,38 @@
+<section id="features" class="section">
+  <div class="container">
+    <h2 class="section-title">Features</h2>
+    <div class="grid grid-3">
+      <div class="feature">
+        <h3>Bold Typography</h3>
+        <p>Large display fonts for immediate visual impact with clean body text for readability.</p>
+      </div>
+      <div class="feature">
+        <h3>Glass Panels</h3>
+        <p>Soft frosted cards that float above the gradient background for depth and contrast.</p>
+      </div>
+      <div class="feature">
+        <h3>Responsive</h3>
+        <p>Layout and navigation adapt to mobile and desktop for a consistent experience.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section muted">
+  <div class="container">
+    <h2 class="section-title">About</h2>
+    <p>This template is a starting point to recreate a look similar to exarorton.com: strong headings, neon/accent colors, and layered UI cards.</p>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <form class="contact-form" onsubmit="event.preventDefault(); alert('Form submission disabled in template');">
+      <input type="text" placeholder="Nama" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Pesan" rows="4" required></textarea>
+      <button class="btn primary" type="submit">Kirim</button>
+    </form>
+  </div>
+</section>
